@@ -8,7 +8,6 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
 
   # config.secret_key = '982e58c14a52dd44073dfb018d5309bc92e12dd451be98c450fc3bedd6dd5c1295add654f5ae55c1ac657d2b2bf05518938ea77116f189c2fb0fe72788988e32'
-=======
   # config.secret_key = 'ff0fa74c1f4dffc48cc58d88898678895a0423caa2cabf237a3926cd8760b2e86cd9ca41fd46085c73f1dc0241c0493e77a3ebb64beed26822bd4268fb55fe67'
 
   # ==> Mailer Configuration
@@ -17,7 +16,6 @@ Devise.setup do |config|
   # with default "from" parameter.
 
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
-=======
   config.mailer_sender = 'support@devcamp.com'
 
   # Configure the class responsible to send e-mails.
@@ -116,7 +114,7 @@ Devise.setup do |config|
   # Set up a pepper to generate the hashed password.
 
   # config.pepper = '437f184e9980d8048a01a1b27f755626e8233b38efc24d6064732dfa86463040c7561d2a1a9dd24c43dab4b5dad8f9f9358dbec4199a931c5550450884acfdcc'
-=======
+
   # config.pepper = 'e3da267b847fab41d41421db85c353a6c6d871e9ec36f9ff07b276a444c98f67ccb37eac4df317f05293a43b9232c34d59368d4a0824553a62fc81b270d53f2f'
 
 
