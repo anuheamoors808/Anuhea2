@@ -166,10 +166,14 @@ body {
  */
  
  .card-block {
-   color: #B0B9FF;
+   color: black;
    text-align: left;
  }
  
  .auth-links a {
-   color: #B0B9FF;
+   color: black;
+ }
+ 
+ .register-text {
+   text-align: right;
  }
