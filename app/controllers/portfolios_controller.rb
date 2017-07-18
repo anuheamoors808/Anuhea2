@@ -43,7 +43,7 @@ class PortfoliosController < ApplicationController
   end
 
   def show
-    bindng.pry
+   
   end
 
   def destroy
@@ -66,4 +66,7 @@ class PortfoliosController < ApplicationController
                                       )
   end
 
+  def set_portfolio_item
+    @portfolio_item = Portfolio.find(params[:id])
+  end
 end
