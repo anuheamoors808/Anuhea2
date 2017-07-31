@@ -3,9 +3,18 @@
     <h4>About</h4>
     <p>These are my blogs.<em>I found them all by myself.</em> They are a little broken, but still good. Yep, still good.</p>
   </div>
+  
+    <%= source_helper("alert alert-success blog-sidebar-source") %>
+  
+  <div class="sidebar-module">
+    <h1>Topics</h1>
+    <%= @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
+  </div>
 
   <div class="sidebar-module">
-    <h4>Social Media</h4>
+      <h4>FOLLOW ME</h4>
     <ol class="list-unstyled social-links">
       <li><a href="https://github.com/anuheamoors808"><%= fa_icon "github" %>  Github me</a></li>
       <li><a href="https://twitter.com/anuheax"><%= fa_icon "twitter" %> Tweet me</a></li>
