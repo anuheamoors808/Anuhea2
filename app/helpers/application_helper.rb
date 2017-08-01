@@ -1,5 +1,5 @@
 module ApplicationHelper
-  def login_helper style=" "
+  def login_helper style=' '
     if current_user.is_a?(GuestUser)
       (link_to "Register", new_user_registration_path, class: style) +
       " ".html_safe +
@@ -42,10 +42,6 @@ module ApplicationHelper
         url: portfolios_path,
         title: 'Portfolio'
       },
-      {
-        url: tech_news_path,
-        title: 'Tech News'
-      },
     ]
   end
   
@@ -73,7 +69,7 @@ module ApplicationHelper
   end
 
   def alert_generator msg
-    js add_gritter(alert, title: "", sticky: false, time: 6000)
+    js add_gritter(msg, title: "", sticky: false, time: 6000)
   end
 
 end
